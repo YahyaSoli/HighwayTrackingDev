@@ -50,4 +50,7 @@ highway_tracker
 .Spotlight-V100
 .Trashes
 ehthumbs.db
-Thumbs.db 
+Thumbs.db
+
+# Large data files
+data/rawdata_flat.mat 
