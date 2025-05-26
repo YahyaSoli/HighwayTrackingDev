@@ -1,0 +1,344 @@
+[
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   trackerEntryPoint_data.c /Fobuild\\win64\\trackerEntryPoint_data.obj",
+    "file": "trackerEntryPoint_data.c",
+    "output": "build/win64/trackerEntryPoint_data.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   rt_nonfinite.c /Fobuild\\win64\\rt_nonfinite.obj",
+    "file": "rt_nonfinite.c",
+    "output": "build/win64/rt_nonfinite.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   trackerEntryPoint_initialize.c /Fobuild\\win64\\trackerEntryPoint_initialize.obj",
+    "file": "trackerEntryPoint_initialize.c",
+    "output": "build/win64/trackerEntryPoint_initialize.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   trackerEntryPoint_terminate.c /Fobuild\\win64\\trackerEntryPoint_terminate.obj",
+    "file": "trackerEntryPoint_terminate.c",
+    "output": "build/win64/trackerEntryPoint_terminate.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   trackerEntryPoint.c /Fobuild\\win64\\trackerEntryPoint.obj",
+    "file": "trackerEntryPoint.c",
+    "output": "build/win64/trackerEntryPoint.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   mustBeFinite.c /Fobuild\\win64\\mustBeFinite.obj",
+    "file": "mustBeFinite.c",
+    "output": "build/win64/mustBeFinite.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   AutomotiveCameraBoxes.c /Fobuild\\win64\\AutomotiveCameraBoxes.obj",
+    "file": "AutomotiveCameraBoxes.c",
+    "output": "build/win64/AutomotiveCameraBoxes.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   SystemCore.c /Fobuild\\win64\\SystemCore.obj",
+    "file": "SystemCore.c",
+    "output": "build/win64/SystemCore.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   trackEstimator.c /Fobuild\\win64\\trackEstimator.obj",
+    "file": "trackEstimator.c",
+    "output": "build/win64/trackEstimator.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   trackingEKF.c /Fobuild\\win64\\trackingEKF.obj",
+    "file": "trackingEKF.c",
+    "output": "build/win64/trackingEKF.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   xnrm2.c /Fobuild\\win64\\xnrm2.obj",
+    "file": "xnrm2.c",
+    "output": "build/win64/xnrm2.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   validateattributes.c /Fobuild\\win64\\validateattributes.obj",
+    "file": "validateattributes.c",
+    "output": "build/win64/validateattributes.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   isSymmetricPositiveSemiDefinite.c /Fobuild\\win64\\isSymmetricPositiveSemiDefinite.obj",
+    "file": "isSymmetricPositiveSemiDefinite.c",
+    "output": "build/win64/isSymmetricPositiveSemiDefinite.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   anyNonFinite.c /Fobuild\\win64\\anyNonFinite.obj",
+    "file": "anyNonFinite.c",
+    "output": "build/win64/anyNonFinite.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   warning.c /Fobuild\\win64\\warning.obj",
+    "file": "warning.c",
+    "output": "build/win64/warning.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   eigStandard.c /Fobuild\\win64\\eigStandard.obj",
+    "file": "eigStandard.c",
+    "output": "build/win64/eigStandard.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   xzlangeM.c /Fobuild\\win64\\xzlangeM.obj",
+    "file": "xzlangeM.c",
+    "output": "build/win64/xzlangeM.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   cholPSD.c /Fobuild\\win64\\cholPSD.obj",
+    "file": "cholPSD.c",
+    "output": "build/win64/cholPSD.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   xdotc.c /Fobuild\\win64\\xdotc.obj",
+    "file": "xdotc.c",
+    "output": "build/win64/xdotc.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   xzsvdc.c /Fobuild\\win64\\xzsvdc.obj",
+    "file": "xzsvdc.c",
+    "output": "build/win64/xzsvdc.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   TrackEstimator1.c /Fobuild\\win64\\TrackEstimator1.obj",
+    "file": "TrackEstimator1.c",
+    "output": "build/win64/TrackEstimator1.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   ExtendedKalmanFilter.c /Fobuild\\win64\\ExtendedKalmanFilter.obj",
+    "file": "ExtendedKalmanFilter.c",
+    "output": "build/win64/ExtendedKalmanFilter.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   MultiModalEKFEstimator.c /Fobuild\\win64\\MultiModalEKFEstimator.obj",
+    "file": "MultiModalEKFEstimator.c",
+    "output": "build/win64/MultiModalEKFEstimator.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   eigSkewHermitianStandard.c /Fobuild\\win64\\eigSkewHermitianStandard.obj",
+    "file": "eigSkewHermitianStandard.c",
+    "output": "build/win64/eigSkewHermitianStandard.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   JIPDATracker.c /Fobuild\\win64\\JIPDATracker.obj",
+    "file": "JIPDATracker.c",
+    "output": "build/win64/JIPDATracker.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   uniquetolcg.c /Fobuild\\win64\\uniquetolcg.obj",
+    "file": "uniquetolcg.c",
+    "output": "build/win64/uniquetolcg.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   indexShapeCheck.c /Fobuild\\win64\\indexShapeCheck.obj",
+    "file": "indexShapeCheck.c",
+    "output": "build/win64/indexShapeCheck.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   ypr2rotmat.c /Fobuild\\win64\\ypr2rotmat.obj",
+    "file": "ypr2rotmat.c",
+    "output": "build/win64/ypr2rotmat.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   interface\\_coder_trackerEntryPoint_api.c /Fobuild\\win64\\_coder_trackerEntryPoint_api.obj",
+    "file": "interface/_coder_trackerEntryPoint_api.c",
+    "output": "build/win64/_coder_trackerEntryPoint_api.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   interface\\_coder_trackerEntryPoint_mex.c /Fobuild\\win64\\_coder_trackerEntryPoint_mex.obj",
+    "file": "interface/_coder_trackerEntryPoint_mex.c",
+    "output": "build/win64/_coder_trackerEntryPoint_mex.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   eml_int_forloop_overflow_check.c /Fobuild\\win64\\eml_int_forloop_overflow_check.obj",
+    "file": "eml_int_forloop_overflow_check.c",
+    "output": "build/win64/eml_int_forloop_overflow_check.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   sumMatrixIncludeNaN.c /Fobuild\\win64\\sumMatrixIncludeNaN.obj",
+    "file": "sumMatrixIncludeNaN.c",
+    "output": "build/win64/sumMatrixIncludeNaN.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   UniformPoissonClutterModel.c /Fobuild\\win64\\UniformPoissonClutterModel.obj",
+    "file": "UniformPoissonClutterModel.c",
+    "output": "build/win64/UniformPoissonClutterModel.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   UniformPoissonBirthModel.c /Fobuild\\win64\\UniformPoissonBirthModel.obj",
+    "file": "UniformPoissonBirthModel.c",
+    "output": "build/win64/UniformPoissonBirthModel.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   xscal.c /Fobuild\\win64\\xscal.obj",
+    "file": "xscal.c",
+    "output": "build/win64/xscal.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   xzlarfg.c /Fobuild\\win64\\xzlarfg.obj",
+    "file": "xzlarfg.c",
+    "output": "build/win64/xzlarfg.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   xzlascl.c /Fobuild\\win64\\xzlascl.obj",
+    "file": "xzlascl.c",
+    "output": "build/win64/xzlascl.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   xgemv.c /Fobuild\\win64\\xgemv.obj",
+    "file": "xgemv.c",
+    "output": "build/win64/xgemv.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   xgerc.c /Fobuild\\win64\\xgerc.obj",
+    "file": "xgerc.c",
+    "output": "build/win64/xgerc.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   xzlarf.c /Fobuild\\win64\\xzlarf.obj",
+    "file": "xzlarf.c",
+    "output": "build/win64/xzlarf.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   xhseqr.c /Fobuild\\win64\\xhseqr.obj",
+    "file": "xhseqr.c",
+    "output": "build/win64/xhseqr.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   xdlanv2.c /Fobuild\\win64\\xdlanv2.obj",
+    "file": "xdlanv2.c",
+    "output": "build/win64/xdlanv2.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   xzgebal.c /Fobuild\\win64\\xzgebal.obj",
+    "file": "xzgebal.c",
+    "output": "build/win64/xzgebal.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   xswap.c /Fobuild\\win64\\xswap.obj",
+    "file": "xswap.c",
+    "output": "build/win64/xswap.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   xdlahqr.c /Fobuild\\win64\\xdlahqr.obj",
+    "file": "xdlahqr.c",
+    "output": "build/win64/xdlahqr.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   xpotrf.c /Fobuild\\win64\\xpotrf.obj",
+    "file": "xpotrf.c",
+    "output": "build/win64/xpotrf.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   xaxpy.c /Fobuild\\win64\\xaxpy.obj",
+    "file": "xaxpy.c",
+    "output": "build/win64/xaxpy.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   xrot.c /Fobuild\\win64\\xrot.obj",
+    "file": "xrot.c",
+    "output": "build/win64/xrot.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   ObjectTrackOutputter.c /Fobuild\\win64\\ObjectTrackOutputter.obj",
+    "file": "ObjectTrackOutputter.c",
+    "output": "build/win64/ObjectTrackOutputter.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   objectTrack.c /Fobuild\\win64\\objectTrack.obj",
+    "file": "objectTrack.c",
+    "output": "build/win64/objectTrack.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   JIPDATrackMaintainer.c /Fobuild\\win64\\JIPDATrackMaintainer.obj",
+    "file": "JIPDATrackMaintainer.c",
+    "output": "build/win64/JIPDATrackMaintainer.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   sort.c /Fobuild\\win64\\sort.obj",
+    "file": "sort.c",
+    "output": "build/win64/sort.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   sortIdx.c /Fobuild\\win64\\sortIdx.obj",
+    "file": "sortIdx.c",
+    "output": "build/win64/sortIdx.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   mrdivide_helper.c /Fobuild\\win64\\mrdivide_helper.obj",
+    "file": "mrdivide_helper.c",
+    "output": "build/win64/mrdivide_helper.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   trackerEntryPoint_emxutil.c /Fobuild\\win64\\trackerEntryPoint_emxutil.obj",
+    "file": "trackerEntryPoint_emxutil.c",
+    "output": "build/win64/trackerEntryPoint_emxutil.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   interface\\_coder_trackerEntryPoint_info.c /Fobuild\\win64\\_coder_trackerEntryPoint_info.obj",
+    "file": "interface/_coder_trackerEntryPoint_info.c",
+    "output": "build/win64/_coder_trackerEntryPoint_info.obj"
+  },
+  {
+    "directory": "C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\\codegen\\mex\\trackerEntryPoint",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\20200866\\OneDrive - TU Eindhoven\\Documents\\MATLAB\\Examples\\R2024b\\fusion\\HighwayVehicleTrackingForAutomotiveApplicationsExample\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=trackerEntryPoint_mex   \"C:\\Program Files\\MATLAB\\R2024b\\extern\\version\\c_mexapi_version.c\" /Fobuild\\win64\\c_mexapi_version.obj",
+    "file": "C:/Program Files/MATLAB/R2024b/extern/version/c_mexapi_version.c",
+    "output": "build/win64/c_mexapi_version.obj"
+  }
+]
