@@ -1,27 +1,34 @@
 CC = gcc
-CFLAGS = -Wall -Wextra -g -I/usr/include/hdf5/serial -I./include
-LDFLAGS = -lhdf5_serial -lm
+CXX = g++
+CFLAGS = -g -Wall -I./include -I/usr/include/hdf5/serial -I./include/sdf -I./darknet/include -DMULTITHREADED
+CXXFLAGS = -g -Wall -std=c++11 -I./include -I/usr/include/hdf5/serial -I./include/sdf -I./darknet/include -DMULTITHREADED
+LDFLAGS = -lm -lpthread -lstdc++ -lhdf5_serial -lstdc++ libdarknet.a -lstdc++ -L/usr/local/cuda/lib64 -lcuda -lcudart -lcublas -lcurand -lmvec `pkg-config --libs opencv4 2> /dev/null || pkg-config --libs opencv`
+CXXLDFLAGS = -lm -lpthread -lstdc++ -lhdf5_serial -lstdc++ libdarknet.a -lstdc++ -L/usr/local/cuda/lib64 -lcuda -lcudart -lcublas -lcurand -lmvec `pkg-config --libs opencv4 2> /dev/null || pkg-config --libs opencv`
 
 SRC_DIR = src
-BUILD_DIR = build
-LIB_DIR = lib
+OBJ_DIR = obj
+BIN_DIR = bin
 
-SRCS = src/main.c src/sensor_loader.c src/tracker_specs.c src/data_streamer.c src/ego_motion.c
-OBJS = $(SRCS:.c=.o)
-TARGET = highway_tracker
+# Include FIFO source and Darknet detector
+SRCS = $(wildcard $(SRC_DIR)/*.c) include/sdf/fifo.c
+OBJS = $(patsubst %.c,$(OBJ_DIR)/%.o,$(notdir $(SRCS)))
+TARGET = $(BIN_DIR)/highway_tracker
 
-.PHONY: all clean directories
+.PHONY: all clean
 
-all: directories $(TARGET)
-
-directories:
-	@mkdir -p $(BUILD_DIR)
+all: $(TARGET)
 
 $(TARGET): $(OBJS)
-	$(CC) $(OBJS) -o $(TARGET) $(LDFLAGS)
+	@mkdir -p $(BIN_DIR)
+	$(CC) $(OBJS) -o $@ $(LDFLAGS)
 
-%.o: %.c
+$(OBJ_DIR)/%.o: $(SRC_DIR)/%.c
+	@mkdir -p $(OBJ_DIR)
+	$(CC) $(CFLAGS) -c $< -o $@
+
+$(OBJ_DIR)/%.o: include/sdf/%.c
+	@mkdir -p $(OBJ_DIR)
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	rm -rf $(BUILD_DIR) 
+	rm -rf $(OBJ_DIR) $(BIN_DIR) 

@@ -3,8 +3,9 @@
 #include <stdlib.h>
 #include <string.h>
 #include "../include/sensor_loader.h"
-#define STB_IMAGE_WRITE_IMPLEMENTATION
-#include "../lib/stb_image_write.h"
+// #define STB_IMAGE_WRITE_IMPLEMENTATION
+#include "../darknet/3rdparty/stb/include/stb_image_write.h"
+
 
 // Function to load odometry data from HDF5 file
 OdometryData* load_odometry_data(const char* filename) {

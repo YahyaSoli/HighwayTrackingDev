@@ -5,6 +5,16 @@
 #include "../include/data_streamer.h"
 #include "../include/motion_types.h"
 #include "../include/ego_motion.h"
+#include "../include/camera_detection.h"
+#include "../include/darknet_detector.h"
+#include <dirent.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <unistd.h>
+#include <pthread.h>
+#include <time.h>
+#include <stdatomic.h>
+#include <string.h>
 
 // Helper function to print target specification
 void printTargetSpec(const TargetSpec* spec) {
@@ -88,30 +98,72 @@ void printLidarSpec(const LidarSpec* spec) {
     printf("\n");
 }
 
+// Helper function to delete all files in a directory
+int delete_all_files_in_directory(const char* dir_path) {
+    DIR *dir = opendir(dir_path);
+    if (!dir) {
+        printf("Could not open directory: %s\n", dir_path);
+        return -1;
+    }
+    
+    struct dirent *entry;
+    char filepath[512];
+    int deleted = 0;
+    int errors = 0;
+    
+    while ((entry = readdir(dir)) != NULL) {
+        // Skip . and .. directories
+        if (strcmp(entry->d_name, ".") == 0 || strcmp(entry->d_name, "..") == 0) {
+            continue;
+        }
+        
+        // Only delete regular files, not directories
+        if (entry->d_type == DT_REG) {
+            snprintf(filepath, sizeof(filepath), "%s/%s", dir_path, entry->d_name);
+            if (remove(filepath) == 0) {
+                deleted++;
+            } else {
+                printf("Failed to delete: %s\n", filepath);
+                errors++;
+            }
+        }
+    }
+    
+    closedir(dir);
+    
+    if (errors > 0) {
+        printf("Deleted %d files, %d errors occurred\n", deleted, errors);
+        return -1;
+    } else {
+        printf("Successfully deleted %d files\n", deleted);
+        return 0;
+    }
+}
+
 int main() {
     const char* filename = "data/rawdata_flat.mat";
     
     // Load all sensor data
     printf("Loading sensor data...\n");
     
-    printf("Loading odometry data...\n");
+    printf("    Loading odometry data...\n");
     OdometryData* odometry_data = load_odometry_data(filename);
     if (!odometry_data) {
         fprintf(stderr, "Error: Failed to load odometry data\n");
         return 1;
     }
-    printf("✅ Odometry data loaded.\n");
+    printf("    ✅ Odometry data loaded.\n");
 
-    printf("Loading radar data...\n");
+    printf("    Loading radar data...\n");
     RadarData* radar_data = load_radar_data(filename);
     if (!radar_data) {
         fprintf(stderr, "Error: Failed to load radar data\n");
         free_odometry_data(odometry_data);
         return 1;
     }
-    printf("✅ Radar data loaded.\n");
+    printf("    ✅ Radar data loaded.\n");
 
-    printf("Loading lidar data...\n");
+    printf("    Loading lidar data...\n");
     LidarData* lidar_data = load_lidar_data(filename);
     if (!lidar_data) {
         fprintf(stderr, "Error: Failed to load lidar data\n");
@@ -119,9 +171,9 @@ int main() {
         free_radar_data(radar_data);
         return 1;
     }
-    printf("✅ Lidar data loaded.\n");
+    printf("    ✅ Lidar data loaded.\n");
 
-    printf("Loading camera data...\n");
+    printf("    Loading camera data...\n");
     CameraData* camera_data = load_camera_data(filename);
     if (!camera_data) {
         fprintf(stderr, "Error: Failed to load camera data\n");
@@ -130,7 +182,7 @@ int main() {
         free_lidar_data(lidar_data);
         return 1;
     }
-    printf("✅ Camera data loaded.\n");
+    printf("    ✅ Camera data loaded.\n");
 
     // Print summary of loaded data
     printf("\nData Summary:\n");
@@ -162,6 +214,8 @@ int main() {
     printf("  Sensor 1: Lidar\n");
     printf("  Sensor 2: Camera\n");
 
+    CameraDetectionData* all_detections = calloc(camera_data->num_frames, sizeof(CameraDetectionData));
+
     while (1) {
         printf("\nSelect data type to inspect:\n");
         printf("1. Odometry Data\n");
@@ -171,8 +225,10 @@ int main() {
         printf("5. Test Target and Sensor Specifications\n");
         printf("6. Test Data Streaming\n");
         printf("7. Test Ego Motion Estimation for user-selected frame\n");
-        printf("8. Exit\n");
-        printf("Enter your choice (1-8): ");
+        printf("8. Run Darknet YOLO Detection (Clean Wrapper Functions)\n");
+        printf("9. Delete all files in detections directory\n");
+        printf("10. Exit\n");
+        printf("Enter your choice (1-10): ");
 
         int choice;
         if (scanf("%d", &choice) != 1) {
@@ -460,19 +516,19 @@ int main() {
                     break;
                 }
 
-                // Initialize ego motion
+                // Initialize ego motion with time aligned to the previous frame
                 EgoMotion ego_motion;
-                reset_ego_motion(&ego_motion, odometry_data);
+                reset_ego_motion_to_time(&ego_motion, odometry_data->frames[idx - 1].timestamp);
 
-                // Initialize last odometry with frame[idx-1]
+                // Initialize last odometry with frame[idx - 1]
                 LastOdometry last_odometry;
-                last_odometry.vehicle = odometry_data->frames[idx-1];
-                last_odometry.timestamp = odometry_data->frames[idx-1].timestamp;
+                last_odometry.vehicle = odometry_data->frames[idx - 1];
+                last_odometry.timestamp = odometry_data->frames[idx - 1].timestamp;
 
                 const OdometryFrame* current_odometry = &odometry_data->frames[idx];
 
                 printf("\nInitial State:\n");
-                printf("Last Odometry (frame %zu):\n", idx-1);
+                printf("Last Odometry (frame %zu):\n", idx - 1);
                 printf("  Timestamp: %.6f\n", last_odometry.timestamp);
                 printf("  Speed: %.2f m/s\n", last_odometry.vehicle.speed);
                 printf("  Yaw Rate: %.2f rad/s\n", last_odometry.vehicle.yaw_rate);
@@ -498,9 +554,101 @@ int main() {
                         ego_motion.rotational_displacement[i][1],
                         ego_motion.rotational_displacement[i][2]);
                 }
+
+                // Print cumulative pose to match MATLAB
+                printf("\nCumulative Ego Pose:\n");
+                printf("  X: %.6f m\n", ego_motion.cumulative_pose.x);
+                printf("  Y: %.6f m\n", ego_motion.cumulative_pose.y);
+                printf("  Theta: %.6f degrees\n", ego_motion.cumulative_pose.theta_deg);
+
                 break;
             }
-            case 8: { // Exit
+            case 8: { // Run Darknet YOLO Detection (Clean Wrapper Functions)
+                printf("Running Darknet YOLO detection using clean wrapper functions.\n");
+                printf("This demonstrates the clean separation between model loading and image detection.\n");
+                
+                // Step 1: Initialize the detector (loads model once)
+                printf("\n=== STEP 1: INITIALIZING DETECTOR ===\n");
+                DirectDarknetDetector* detector = direct_darknet_init(
+                    "darknet/cfg/coco.data",    // Data configuration
+                    "darknet/yolov4.cfg",       // Network configuration
+                    "darknet/yolov4.weights",   // Pre-trained weights
+                    0.25f,                      // Detection threshold
+                    0.5f                        // Hierarchical threshold
+                );
+                
+                if (!detector) {
+                    printf("ERROR: Failed to initialize detector\n");
+                    break;
+                }
+                
+                // Step 2: Detect on image file
+                printf("\n=== STEP 2: DETECTING ON IMAGE FILE ===\n");
+                int result1 = direct_darknet_detect_image(
+                    detector,
+                    "camera_frame_0.png",           // Input image
+                    "detections/detections_test_image.json",  // Output JSON
+                    "detections/detection_test_image"     // Output image
+                );
+                
+                if (result1 != 0) {
+                    printf("ERROR: Detection on image file failed\n");
+                    direct_darknet_cleanup(detector);
+                    break;
+                }
+                
+                // Step 3: Detect on camera frame data (pixels)
+                printf("\n=== STEP 3: DETECTING ON CAMERA FRAME DATA ===\n");
+                printf("Enter frame index (0-%zu): ", camera_data->num_frames - 1);
+                size_t frame_idx;
+                if (scanf("%zu", &frame_idx) != 1 || frame_idx >= camera_data->num_frames) {
+                    printf("Invalid frame index.\n");
+                    while (getchar() != '\n');
+                    direct_darknet_cleanup(detector);
+                    break;
+                }
+                
+                const CameraImage* img = &camera_data->frames[frame_idx];
+                printf("Processing camera frame %zu: %dx%dx%d\n", frame_idx, img->width, img->height, img->channels);
+                
+                // Generate filenames with frame index
+                char json_filename[256];
+                char img_filename[256];
+                snprintf(json_filename, sizeof(json_filename), "detections/detections_pixels_frame_%zu.json", frame_idx);
+                snprintf(img_filename, sizeof(img_filename), "detections/detection_pixels_frame_%zu", frame_idx);
+                              
+                int result2 = direct_darknet_detect_pixels(
+                    detector,
+                    img->data,                                    // Pixel data
+                    img->width,                                   // Width
+                    img->height,                                  // Height
+                    img->channels,                                // Channels
+                    json_filename,                                // Output JSON
+                    img_filename                                  // Output image
+                );
+                
+                if (result2 != 0) {
+                    printf("ERROR: Detection on pixel data failed\n");
+                    direct_darknet_cleanup(detector);
+                    break;
+                }
+                
+                // Step 4: Cleanup
+                printf("\n=== STEP 4: CLEANUP ===\n");
+                direct_darknet_cleanup(detector);
+                
+                break;
+            }
+            case 9: { // Delete all files in detections directory
+                printf("Deleting all files in detections directory...\n");
+                if (delete_all_files_in_directory("detections") != 0) {
+                    printf("Error: Failed to delete files in detections directory\n");
+                } else {
+                    printf("Success: All files in detections directory deleted\n");
+                }
+                break;
+            }
+            case 10: { // Exit
                 // Clean up
                 for (size_t i = 0; i < num_targets; ++i) {
                     free(targets[i]);
@@ -514,10 +662,12 @@ int main() {
                 free_lidar_data(lidar_data);
                 free_camera_data(camera_data);
                 
+                free(all_detections);
+                
                 return 0;
             }
             default:
                 printf("Invalid choice. Please try again.\n");
         }
     }
-} 
+}
